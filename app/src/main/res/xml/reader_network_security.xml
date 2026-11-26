@@ -1,0 +1,8 @@
+<network-security-config>
+    <!-- WebDAV 可使用用户输入的局域网 HTTP 地址，直链和重定向的协议由 RemoteTransport 校验。 -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

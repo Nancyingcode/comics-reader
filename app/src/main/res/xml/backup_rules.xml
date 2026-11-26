@@ -1,0 +1,12 @@
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="local-reading.xml" />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="reader-offline" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="local-reading.xml" />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="reader-offline" />
+    </device-transfer>
+</data-extraction-rules>

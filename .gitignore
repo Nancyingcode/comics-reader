@@ -1,0 +1,11 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+work/
+/outputs/*
+!/outputs/stage*-validation/
+/outputs/stage*-validation/*
+!/outputs/stage*-validation/验收记录.md
+*.iml

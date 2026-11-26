@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.KaiReader" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#151514</item>
+        <item name="android:colorAccent">#FFC184</item>
+    </style>
+</resources>
